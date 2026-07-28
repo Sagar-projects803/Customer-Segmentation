@@ -1,6 +1,5 @@
 # Customer Segmentation using K-Means Clustering and PCA
 
-**AI-ML Assignment 7 (Total Marks: 10)**
 
 ## Objective
 
@@ -39,7 +38,6 @@ pip install -r requirements.txt
 ```
 .
 ├── Assignment-7.ipynb      # Main Jupyter notebook (all tasks, code + outputs)
-├── Assignment-7.py         # Equivalent Python script version
 ├── README.md                # This file
 ├── requirements.txt         # Python dependencies
 ├── data/
@@ -83,15 +81,15 @@ pip install -r requirements.txt
 
 **Elbow Curve:**
 
-![Elbow Curve](images/elbow_curve.png)
+![Elbow Curve](elbow_curve.png)
 
 **Customer Clusters (Annual Income vs Spending Score):**
 
-![Cluster Scatter Plot](images/cluster_scatter.png)
+![Cluster Scatter Plot](cluster_scatter.png)
 
 **PCA Visualization of Clusters:**
 
-![PCA Visualization](images/pca_visualization.png)
+![PCA Visualization](pca_visualization.png)
 
 **Cluster Profile Summary:**
 
@@ -119,14 +117,9 @@ In this assignment, K-Means clustering was applied to the Mall Customer Segmenta
 ## How to Run
 
 ```bash
-git clone <this-repo-url>
-cd <this-repo>
+git clone https://github.com/Sagar-projects803/Customer-Segmentation.git
+cd Customer-Segmentation
 pip install -r requirements.txt
 jupyter notebook Assignment-7.ipynb
 ```
 
-Or run the script version directly:
-
-```bash
-python Assignment-7.py
-```
